@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ECB83B41ED42A1F005D2068 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB83B31ED42A1F005D2068 /* main.m */; };
+		0ECB83B71ED42A1F005D2068 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB83B61ED42A1F005D2068 /* AppDelegate.m */; };
+		0ECB83BA1ED42A1F005D2068 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB83B91ED42A1F005D2068 /* ViewController.m */; };
+		0ECB83BD1ED42A1F005D2068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ECB83BB1ED42A1F005D2068 /* Main.storyboard */; };
+		0ECB83BF1ED42A1F005D2068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ECB83BE1ED42A1F005D2068 /* Assets.xcassets */; };
+		0ECB83C21ED42A1F005D2068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ECB83C01ED42A1F005D2068 /* LaunchScreen.storyboard */; };
+		0ECB83CD1ED42A1F005D2068 /* HZZCustomPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB83CC1ED42A1F005D2068 /* HZZCustomPickerTests.m */; };
+		0ECB83D81ED42A1F005D2068 /* HZZCustomPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB83D71ED42A1F005D2068 /* HZZCustomPickerUITests.m */; };
+		0ECB83EB1ED42F04005D2068 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB83EA1ED42F04005D2068 /* BaseNavigationController.m */; };
+		0ECB83F41ED43485005D2068 /* TitleScrollHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB83EF1ED43485005D2068 /* TitleScrollHelper.m */; };
+		0ECB83F51ED43485005D2068 /* TitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB83F11ED43485005D2068 /* TitleScrollView.m */; };
+		0ECB83F61ED43485005D2068 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB83F31ED43485005D2068 /* UIView+Frame.m */; };
+		0ECB83FC1ED435C8005D2068 /* AttributedLbl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB83F91ED435C8005D2068 /* AttributedLbl.m */; };
+		0ECB83FD1ED435C8005D2068 /* UILabel+YBAttributeTextTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB83FB1ED435C8005D2068 /* UILabel+YBAttributeTextTapAction.m */; };
+		0ECB84031ED43689005D2068 /* WKChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB84021ED43689005D2068 /* WKChildViewController.m */; };
+		0ECB84061ED43769005D2068 /* CustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB84051ED43769005D2068 /* CustomPickerViewController.m */; };
+		0ECB840A1ED43BE4005D2068 /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB84091ED43BE4005D2068 /* UIColor+FlatUI.m */; };
+		0ECB840E1ED43C95005D2068 /* SQ_FangXingPickerview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB840D1ED43C95005D2068 /* SQ_FangXingPickerview.m */; };
+		0ECB84121ED43CE3005D2068 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB84111ED43CE3005D2068 /* UIViewExt.m */; };
+		0ECB84151ED43DB0005D2068 /* UIPickerView+WS_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB84141ED43DB0005D2068 /* UIPickerView+WS_Extension.m */; };
+		0ECB841B1ED44539005D2068 /* SQCoustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB841A1ED44539005D2068 /* SQCoustomPickerView.m */; };
+		0ECB84361ED44582005D2068 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB841E1ED44582005D2068 /* MASCompositeConstraint.m */; };
+		0ECB84371ED44582005D2068 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB84211ED44582005D2068 /* MASConstraint.m */; };
+		0ECB84381ED44582005D2068 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB84231ED44582005D2068 /* MASConstraintMaker.m */; };
+		0ECB84391ED44582005D2068 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB84251ED44582005D2068 /* MASLayoutConstraint.m */; };
+		0ECB843A1ED44582005D2068 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB84291ED44582005D2068 /* MASViewAttribute.m */; };
+		0ECB843B1ED44582005D2068 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB842B1ED44582005D2068 /* MASViewConstraint.m */; };
+		0ECB843C1ED44582005D2068 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB842D1ED44582005D2068 /* NSArray+MASAdditions.m */; };
+		0ECB843D1ED44582005D2068 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB84301ED44582005D2068 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0ECB843E1ED44582005D2068 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB84321ED44582005D2068 /* View+MASAdditions.m */; };
+		0ECB843F1ED44582005D2068 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB84351ED44582005D2068 /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0ECB83C91ED42A1F005D2068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ECB83A71ED42A1F005D2068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ECB83AE1ED42A1F005D2068;
+			remoteInfo = HZZCustomPicker;
+		};
+		0ECB83D41ED42A1F005D2068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ECB83A71ED42A1F005D2068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ECB83AE1ED42A1F005D2068;
+			remoteInfo = HZZCustomPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ECB83AF1ED42A1F005D2068 /* HZZCustomPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZZCustomPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ECB83B31ED42A1F005D2068 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0ECB83B51ED42A1F005D2068 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0ECB83B61ED42A1F005D2068 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0ECB83B81ED42A1F005D2068 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0ECB83B91ED42A1F005D2068 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0ECB83BC1ED42A1F005D2068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0ECB83BE1ED42A1F005D2068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ECB83C11ED42A1F005D2068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0ECB83C31ED42A1F005D2068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ECB83C81ED42A1F005D2068 /* HZZCustomPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZZCustomPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ECB83CC1ED42A1F005D2068 /* HZZCustomPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZCustomPickerTests.m; sourceTree = "<group>"; };
+		0ECB83CE1ED42A1F005D2068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ECB83D31ED42A1F005D2068 /* HZZCustomPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZZCustomPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ECB83D71ED42A1F005D2068 /* HZZCustomPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZZCustomPickerUITests.m; sourceTree = "<group>"; };
+		0ECB83D91ED42A1F005D2068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ECB83E91ED42F04005D2068 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		0ECB83EA1ED42F04005D2068 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		0ECB83EE1ED43485005D2068 /* TitleScrollHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScrollHelper.h; sourceTree = "<group>"; };
+		0ECB83EF1ED43485005D2068 /* TitleScrollHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScrollHelper.m; sourceTree = "<group>"; };
+		0ECB83F01ED43485005D2068 /* TitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScrollView.h; sourceTree = "<group>"; };
+		0ECB83F11ED43485005D2068 /* TitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScrollView.m; sourceTree = "<group>"; };
+		0ECB83F21ED43485005D2068 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		0ECB83F31ED43485005D2068 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		0ECB83F81ED435C8005D2068 /* AttributedLbl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributedLbl.h; sourceTree = "<group>"; };
+		0ECB83F91ED435C8005D2068 /* AttributedLbl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedLbl.m; sourceTree = "<group>"; };
+		0ECB83FA1ED435C8005D2068 /* UILabel+YBAttributeTextTapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YBAttributeTextTapAction.h"; sourceTree = "<group>"; };
+		0ECB83FB1ED435C8005D2068 /* UILabel+YBAttributeTextTapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YBAttributeTextTapAction.m"; sourceTree = "<group>"; };
+		0ECB84011ED43689005D2068 /* WKChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKChildViewController.h; sourceTree = "<group>"; };
+		0ECB84021ED43689005D2068 /* WKChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKChildViewController.m; sourceTree = "<group>"; };
+		0ECB84041ED43769005D2068 /* CustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerViewController.h; sourceTree = "<group>"; };
+		0ECB84051ED43769005D2068 /* CustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerViewController.m; sourceTree = "<group>"; };
+		0ECB84081ED43BE4005D2068 /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatUI.h"; sourceTree = "<group>"; };
+		0ECB84091ED43BE4005D2068 /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		0ECB840C1ED43C95005D2068 /* SQ_FangXingPickerview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQ_FangXingPickerview.h; sourceTree = "<group>"; };
+		0ECB840D1ED43C95005D2068 /* SQ_FangXingPickerview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQ_FangXingPickerview.m; sourceTree = "<group>"; };
+		0ECB84101ED43CE3005D2068 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		0ECB84111ED43CE3005D2068 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		0ECB84131ED43DB0005D2068 /* UIPickerView+WS_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPickerView+WS_Extension.h"; sourceTree = "<group>"; };
+		0ECB84141ED43DB0005D2068 /* UIPickerView+WS_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPickerView+WS_Extension.m"; sourceTree = "<group>"; };
+		0ECB84191ED44539005D2068 /* SQCoustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCoustomPickerView.h; sourceTree = "<group>"; };
+		0ECB841A1ED44539005D2068 /* SQCoustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCoustomPickerView.m; sourceTree = "<group>"; };
+		0ECB841D1ED44582005D2068 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		0ECB841E1ED44582005D2068 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		0ECB841F1ED44582005D2068 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		0ECB84201ED44582005D2068 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		0ECB84211ED44582005D2068 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		0ECB84221ED44582005D2068 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		0ECB84231ED44582005D2068 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		0ECB84241ED44582005D2068 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		0ECB84251ED44582005D2068 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		0ECB84261ED44582005D2068 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		0ECB84271ED44582005D2068 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		0ECB84281ED44582005D2068 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		0ECB84291ED44582005D2068 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		0ECB842A1ED44582005D2068 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		0ECB842B1ED44582005D2068 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		0ECB842C1ED44582005D2068 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		0ECB842D1ED44582005D2068 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		0ECB842E1ED44582005D2068 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0ECB842F1ED44582005D2068 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		0ECB84301ED44582005D2068 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		0ECB84311ED44582005D2068 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		0ECB84321ED44582005D2068 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		0ECB84331ED44582005D2068 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0ECB84341ED44582005D2068 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		0ECB84351ED44582005D2068 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ECB83AC1ED42A1F005D2068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ECB83C51ED42A1F005D2068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ECB83D01ED42A1F005D2068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ECB83A61ED42A1F005D2068 = {
+			isa = PBXGroup;
+			children = (
+				0ECB83B11ED42A1F005D2068 /* HZZCustomPicker */,
+				0ECB83CB1ED42A1F005D2068 /* HZZCustomPickerTests */,
+				0ECB83D61ED42A1F005D2068 /* HZZCustomPickerUITests */,
+				0ECB83B01ED42A1F005D2068 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0ECB83B01ED42A1F005D2068 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB83AF1ED42A1F005D2068 /* HZZCustomPicker.app */,
+				0ECB83C81ED42A1F005D2068 /* HZZCustomPickerTests.xctest */,
+				0ECB83D31ED42A1F005D2068 /* HZZCustomPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ECB83B11ED42A1F005D2068 /* HZZCustomPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB841C1ED44582005D2068 /* Masonry */,
+				0ECB840F1ED43CE3005D2068 /* mask */,
+				0ECB840B1ED43C95005D2068 /* fangxingPicker */,
+				0ECB84071ED43BE4005D2068 /* uicolor */,
+				0ECB84011ED43689005D2068 /* WKChildViewController.h */,
+				0ECB84021ED43689005D2068 /* WKChildViewController.m */,
+				0ECB84041ED43769005D2068 /* CustomPickerViewController.h */,
+				0ECB84051ED43769005D2068 /* CustomPickerViewController.m */,
+				0ECB83F71ED435C8005D2068 /* attributedString */,
+				0ECB83ED1ED43485005D2068 /* titleScroll */,
+				0ECB83E81ED42F04005D2068 /* base */,
+				0ECB83B51ED42A1F005D2068 /* AppDelegate.h */,
+				0ECB83B61ED42A1F005D2068 /* AppDelegate.m */,
+				0ECB83B81ED42A1F005D2068 /* ViewController.h */,
+				0ECB83B91ED42A1F005D2068 /* ViewController.m */,
+				0ECB83BB1ED42A1F005D2068 /* Main.storyboard */,
+				0ECB83BE1ED42A1F005D2068 /* Assets.xcassets */,
+				0ECB83C01ED42A1F005D2068 /* LaunchScreen.storyboard */,
+				0ECB83C31ED42A1F005D2068 /* Info.plist */,
+				0ECB83B21ED42A1F005D2068 /* Supporting Files */,
+			);
+			path = HZZCustomPicker;
+			sourceTree = "<group>";
+		};
+		0ECB83B21ED42A1F005D2068 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB83B31ED42A1F005D2068 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0ECB83CB1ED42A1F005D2068 /* HZZCustomPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB83CC1ED42A1F005D2068 /* HZZCustomPickerTests.m */,
+				0ECB83CE1ED42A1F005D2068 /* Info.plist */,
+			);
+			path = HZZCustomPickerTests;
+			sourceTree = "<group>";
+		};
+		0ECB83D61ED42A1F005D2068 /* HZZCustomPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB83D71ED42A1F005D2068 /* HZZCustomPickerUITests.m */,
+				0ECB83D91ED42A1F005D2068 /* Info.plist */,
+			);
+			path = HZZCustomPickerUITests;
+			sourceTree = "<group>";
+		};
+		0ECB83E81ED42F04005D2068 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB83E91ED42F04005D2068 /* BaseNavigationController.h */,
+				0ECB83EA1ED42F04005D2068 /* BaseNavigationController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		0ECB83ED1ED43485005D2068 /* titleScroll */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB83EE1ED43485005D2068 /* TitleScrollHelper.h */,
+				0ECB83EF1ED43485005D2068 /* TitleScrollHelper.m */,
+				0ECB83F01ED43485005D2068 /* TitleScrollView.h */,
+				0ECB83F11ED43485005D2068 /* TitleScrollView.m */,
+				0ECB83F21ED43485005D2068 /* UIView+Frame.h */,
+				0ECB83F31ED43485005D2068 /* UIView+Frame.m */,
+			);
+			path = titleScroll;
+			sourceTree = "<group>";
+		};
+		0ECB83F71ED435C8005D2068 /* attributedString */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB83F81ED435C8005D2068 /* AttributedLbl.h */,
+				0ECB83F91ED435C8005D2068 /* AttributedLbl.m */,
+				0ECB83FA1ED435C8005D2068 /* UILabel+YBAttributeTextTapAction.h */,
+				0ECB83FB1ED435C8005D2068 /* UILabel+YBAttributeTextTapAction.m */,
+			);
+			path = attributedString;
+			sourceTree = "<group>";
+		};
+		0ECB84071ED43BE4005D2068 /* uicolor */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB84081ED43BE4005D2068 /* UIColor+FlatUI.h */,
+				0ECB84091ED43BE4005D2068 /* UIColor+FlatUI.m */,
+			);
+			path = uicolor;
+			sourceTree = "<group>";
+		};
+		0ECB840B1ED43C95005D2068 /* fangxingPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB84191ED44539005D2068 /* SQCoustomPickerView.h */,
+				0ECB841A1ED44539005D2068 /* SQCoustomPickerView.m */,
+				0ECB84131ED43DB0005D2068 /* UIPickerView+WS_Extension.h */,
+				0ECB84141ED43DB0005D2068 /* UIPickerView+WS_Extension.m */,
+				0ECB840C1ED43C95005D2068 /* SQ_FangXingPickerview.h */,
+				0ECB840D1ED43C95005D2068 /* SQ_FangXingPickerview.m */,
+			);
+			path = fangxingPicker;
+			sourceTree = "<group>";
+		};
+		0ECB840F1ED43CE3005D2068 /* mask */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB84101ED43CE3005D2068 /* UIViewExt.h */,
+				0ECB84111ED43CE3005D2068 /* UIViewExt.m */,
+			);
+			path = mask;
+			sourceTree = "<group>";
+		};
+		0ECB841C1ED44582005D2068 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				0ECB841D1ED44582005D2068 /* MASCompositeConstraint.h */,
+				0ECB841E1ED44582005D2068 /* MASCompositeConstraint.m */,
+				0ECB841F1ED44582005D2068 /* MASConstraint+Private.h */,
+				0ECB84201ED44582005D2068 /* MASConstraint.h */,
+				0ECB84211ED44582005D2068 /* MASConstraint.m */,
+				0ECB84221ED44582005D2068 /* MASConstraintMaker.h */,
+				0ECB84231ED44582005D2068 /* MASConstraintMaker.m */,
+				0ECB84241ED44582005D2068 /* MASLayoutConstraint.h */,
+				0ECB84251ED44582005D2068 /* MASLayoutConstraint.m */,
+				0ECB84261ED44582005D2068 /* Masonry.h */,
+				0ECB84271ED44582005D2068 /* MASUtilities.h */,
+				0ECB84281ED44582005D2068 /* MASViewAttribute.h */,
+				0ECB84291ED44582005D2068 /* MASViewAttribute.m */,
+				0ECB842A1ED44582005D2068 /* MASViewConstraint.h */,
+				0ECB842B1ED44582005D2068 /* MASViewConstraint.m */,
+				0ECB842C1ED44582005D2068 /* NSArray+MASAdditions.h */,
+				0ECB842D1ED44582005D2068 /* NSArray+MASAdditions.m */,
+				0ECB842E1ED44582005D2068 /* NSArray+MASShorthandAdditions.h */,
+				0ECB842F1ED44582005D2068 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				0ECB84301ED44582005D2068 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				0ECB84311ED44582005D2068 /* View+MASAdditions.h */,
+				0ECB84321ED44582005D2068 /* View+MASAdditions.m */,
+				0ECB84331ED44582005D2068 /* View+MASShorthandAdditions.h */,
+				0ECB84341ED44582005D2068 /* ViewController+MASAdditions.h */,
+				0ECB84351ED44582005D2068 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0ECB83AE1ED42A1F005D2068 /* HZZCustomPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ECB83DC1ED42A1F005D2068 /* Build configuration list for PBXNativeTarget "HZZCustomPicker" */;
+			buildPhases = (
+				0ECB83AB1ED42A1F005D2068 /* Sources */,
+				0ECB83AC1ED42A1F005D2068 /* Frameworks */,
+				0ECB83AD1ED42A1F005D2068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZZCustomPicker;
+			productName = HZZCustomPicker;
+			productReference = 0ECB83AF1ED42A1F005D2068 /* HZZCustomPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0ECB83C71ED42A1F005D2068 /* HZZCustomPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ECB83DF1ED42A1F005D2068 /* Build configuration list for PBXNativeTarget "HZZCustomPickerTests" */;
+			buildPhases = (
+				0ECB83C41ED42A1F005D2068 /* Sources */,
+				0ECB83C51ED42A1F005D2068 /* Frameworks */,
+				0ECB83C61ED42A1F005D2068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ECB83CA1ED42A1F005D2068 /* PBXTargetDependency */,
+			);
+			name = HZZCustomPickerTests;
+			productName = HZZCustomPickerTests;
+			productReference = 0ECB83C81ED42A1F005D2068 /* HZZCustomPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0ECB83D21ED42A1F005D2068 /* HZZCustomPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ECB83E21ED42A1F005D2068 /* Build configuration list for PBXNativeTarget "HZZCustomPickerUITests" */;
+			buildPhases = (
+				0ECB83CF1ED42A1F005D2068 /* Sources */,
+				0ECB83D01ED42A1F005D2068 /* Frameworks */,
+				0ECB83D11ED42A1F005D2068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ECB83D51ED42A1F005D2068 /* PBXTargetDependency */,
+			);
+			name = HZZCustomPickerUITests;
+			productName = HZZCustomPickerUITests;
+			productReference = 0ECB83D31ED42A1F005D2068 /* HZZCustomPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ECB83A71ED42A1F005D2068 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Hzz;
+				TargetAttributes = {
+					0ECB83AE1ED42A1F005D2068 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = FN4794SYBJ;
+						ProvisioningStyle = Automatic;
+					};
+					0ECB83C71ED42A1F005D2068 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = FN4794SYBJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0ECB83AE1ED42A1F005D2068;
+					};
+					0ECB83D21ED42A1F005D2068 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = FN4794SYBJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0ECB83AE1ED42A1F005D2068;
+					};
+				};
+			};
+			buildConfigurationList = 0ECB83AA1ED42A1F005D2068 /* Build configuration list for PBXProject "HZZCustomPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0ECB83A61ED42A1F005D2068;
+			productRefGroup = 0ECB83B01ED42A1F005D2068 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ECB83AE1ED42A1F005D2068 /* HZZCustomPicker */,
+				0ECB83C71ED42A1F005D2068 /* HZZCustomPickerTests */,
+				0ECB83D21ED42A1F005D2068 /* HZZCustomPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ECB83AD1ED42A1F005D2068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECB83C21ED42A1F005D2068 /* LaunchScreen.storyboard in Resources */,
+				0ECB83BF1ED42A1F005D2068 /* Assets.xcassets in Resources */,
+				0ECB83BD1ED42A1F005D2068 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ECB83C61ED42A1F005D2068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ECB83D11ED42A1F005D2068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ECB83AB1ED42A1F005D2068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECB84121ED43CE3005D2068 /* UIViewExt.m in Sources */,
+				0ECB843B1ED44582005D2068 /* MASViewConstraint.m in Sources */,
+				0ECB84061ED43769005D2068 /* CustomPickerViewController.m in Sources */,
+				0ECB84371ED44582005D2068 /* MASConstraint.m in Sources */,
+				0ECB83FD1ED435C8005D2068 /* UILabel+YBAttributeTextTapAction.m in Sources */,
+				0ECB83F51ED43485005D2068 /* TitleScrollView.m in Sources */,
+				0ECB83F41ED43485005D2068 /* TitleScrollHelper.m in Sources */,
+				0ECB84031ED43689005D2068 /* WKChildViewController.m in Sources */,
+				0ECB843F1ED44582005D2068 /* ViewController+MASAdditions.m in Sources */,
+				0ECB843E1ED44582005D2068 /* View+MASAdditions.m in Sources */,
+				0ECB83EB1ED42F04005D2068 /* BaseNavigationController.m in Sources */,
+				0ECB843A1ED44582005D2068 /* MASViewAttribute.m in Sources */,
+				0ECB841B1ED44539005D2068 /* SQCoustomPickerView.m in Sources */,
+				0ECB840E1ED43C95005D2068 /* SQ_FangXingPickerview.m in Sources */,
+				0ECB83F61ED43485005D2068 /* UIView+Frame.m in Sources */,
+				0ECB84361ED44582005D2068 /* MASCompositeConstraint.m in Sources */,
+				0ECB84391ED44582005D2068 /* MASLayoutConstraint.m in Sources */,
+				0ECB84151ED43DB0005D2068 /* UIPickerView+WS_Extension.m in Sources */,
+				0ECB83FC1ED435C8005D2068 /* AttributedLbl.m in Sources */,
+				0ECB84381ED44582005D2068 /* MASConstraintMaker.m in Sources */,
+				0ECB843C1ED44582005D2068 /* NSArray+MASAdditions.m in Sources */,
+				0ECB840A1ED43BE4005D2068 /* UIColor+FlatUI.m in Sources */,
+				0ECB83BA1ED42A1F005D2068 /* ViewController.m in Sources */,
+				0ECB83B71ED42A1F005D2068 /* AppDelegate.m in Sources */,
+				0ECB83B41ED42A1F005D2068 /* main.m in Sources */,
+				0ECB843D1ED44582005D2068 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ECB83C41ED42A1F005D2068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECB83CD1ED42A1F005D2068 /* HZZCustomPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ECB83CF1ED42A1F005D2068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECB83D81ED42A1F005D2068 /* HZZCustomPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0ECB83CA1ED42A1F005D2068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ECB83AE1ED42A1F005D2068 /* HZZCustomPicker */;
+			targetProxy = 0ECB83C91ED42A1F005D2068 /* PBXContainerItemProxy */;
+		};
+		0ECB83D51ED42A1F005D2068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ECB83AE1ED42A1F005D2068 /* HZZCustomPicker */;
+			targetProxy = 0ECB83D41ED42A1F005D2068 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0ECB83BB1ED42A1F005D2068 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ECB83BC1ED42A1F005D2068 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0ECB83C01ED42A1F005D2068 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ECB83C11ED42A1F005D2068 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0ECB83DA1ED42A1F005D2068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0ECB83DB1ED42A1F005D2068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ECB83DD1ED42A1F005D2068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FN4794SYBJ;
+				INFOPLIST_FILE = HZZCustomPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZNJJ.HZZCustomPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0ECB83DE1ED42A1F005D2068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FN4794SYBJ;
+				INFOPLIST_FILE = HZZCustomPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZNJJ.HZZCustomPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0ECB83E01ED42A1F005D2068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FN4794SYBJ;
+				INFOPLIST_FILE = HZZCustomPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZNJJ.HZZCustomPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZZCustomPicker.app/HZZCustomPicker";
+			};
+			name = Debug;
+		};
+		0ECB83E11ED42A1F005D2068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FN4794SYBJ;
+				INFOPLIST_FILE = HZZCustomPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZNJJ.HZZCustomPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZZCustomPicker.app/HZZCustomPicker";
+			};
+			name = Release;
+		};
+		0ECB83E31ED42A1F005D2068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FN4794SYBJ;
+				INFOPLIST_FILE = HZZCustomPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZNJJ.HZZCustomPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HZZCustomPicker;
+			};
+			name = Debug;
+		};
+		0ECB83E41ED42A1F005D2068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FN4794SYBJ;
+				INFOPLIST_FILE = HZZCustomPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZNJJ.HZZCustomPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HZZCustomPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ECB83AA1ED42A1F005D2068 /* Build configuration list for PBXProject "HZZCustomPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ECB83DA1ED42A1F005D2068 /* Debug */,
+				0ECB83DB1ED42A1F005D2068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ECB83DC1ED42A1F005D2068 /* Build configuration list for PBXNativeTarget "HZZCustomPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ECB83DD1ED42A1F005D2068 /* Debug */,
+				0ECB83DE1ED42A1F005D2068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0ECB83DF1ED42A1F005D2068 /* Build configuration list for PBXNativeTarget "HZZCustomPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ECB83E01ED42A1F005D2068 /* Debug */,
+				0ECB83E11ED42A1F005D2068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0ECB83E21ED42A1F005D2068 /* Build configuration list for PBXNativeTarget "HZZCustomPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ECB83E31ED42A1F005D2068 /* Debug */,
+				0ECB83E41ED42A1F005D2068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ECB83A71ED42A1F005D2068 /* Project object */;
+}
